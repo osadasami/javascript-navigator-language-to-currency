@@ -1,6 +1,6 @@
 {
   "name": "jnltc",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Convert navigator.language to currency code. en-US -> USD",
   "main": "lib/index.js",
   "types": "lib",
