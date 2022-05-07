@@ -2,9 +2,18 @@
   "name": "jnltc",
   "version": "1.0.0",
   "description": "Convert navigator.language to currency code. en-US -> USD",
-  "main": "main.js",
-  "scripts": {},
-  "keywords": ["language to currency", "locale to currency"],
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [
+    "language to currency",
+    "locale to currency"
+  ],
   "author": "osadasami",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
 }
